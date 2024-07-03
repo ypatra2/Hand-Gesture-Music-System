@@ -5,4 +5,4 @@ This project aims at creating a human-computer interface application that helps 
 
 ## 2. Methodology
 ### 2.1. Hand Tracking
-Hand tracking technology is the cornerstone of this project. Hand tracking has significantly changed and enhanced user experiences across technological and industrial platforms. It has been the foundation for sign language comprehension, menu controls with hand gestures as well as all applications involved in the next most cutting-edge area of Human Computer Interaction:_ Augmented Reality._
+Hand tracking technology is the cornerstone of this project. Hand tracking has significantly changed and enhanced user experiences across technological and industrial platforms. It has been the foundation for sign language comprehension, menu controls with hand gestures as well as all applications involved in the next most cutting-edge area of Human Computer Interaction: _Augmented Reality._
