@@ -8,6 +8,7 @@ This project implements a real-time hand gesture recognition system using MediaP
 <li><strong>Sound Mapping: </strong>Each unique hand gesture is associated with a unique sound frequency, similar to how a musical keyboard is programmed</li>
 <li><strong>Instrument Selection: </strong>A Streamlit Web App (<href>https://streamlit.io/</href>) is designed to allow the user to interact with this Music System. The user selects an instrument using a dropdown. The Web App displays the image of the selected instrument and plays a video generated using Synthesia.io (<href>https://www.synthesia.io/</href>) wherein an AI Avatar describes the chosen instrument.<br><br><img width="1440" alt="image" src="https://github.com/ypatra2/Hand-Gesture-Music-System/assets/86041798/49be357a-0bc9-48e5-897d-1bfc006799d2">
 </li>
+
 <li><strong>Interactive Music Playback: </strong>SCAMP (Suite for Computer-Assisted Music in Python) is used to generate the sound of the selected instrument with each unique hand gesture used to play the instrument at a different frequency.</li>
 
 ## Requirements
@@ -28,6 +29,7 @@ This project implements a real-time hand gesture recognition system using MediaP
 ## Usage
 
 <li><strong>Image Generation: </strong>Run <strong>data_collection_hand_tracking_algorithm.py </strong> and make hand gestures in front of a webcam based on the note for which the image is being saved. Remember to enter the correct save-to path in the script before running it. Use the <strong> S </strong> key to save the image displayed on window once ready. Generate ample number of images so that the Image Classifier has sufficient data to learn from which will make it robust.</li>
+<li><strong>Training Image Classifier: </strong> Upload images stored in Data Folder to Google Teachable Machine and enter label for each type of gesture as per the musical note it represents. Once images are uploaded, click on Train model. After training is complete, download the <strong>.h5 file</strong> and place it in the Model Folder of this repository. A trained model has already been placed in the Model folder currently, feel free to replace it with a more extensive gesture-trained model.</li>
 
 
 
