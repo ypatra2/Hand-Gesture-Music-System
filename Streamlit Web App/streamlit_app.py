@@ -11,7 +11,7 @@ instruments = ['Guitar', 'Piano', 'Violin', 'Saxophone', 'Trumpet', 'Saxophone',
 # Define the function to get the description of the instrument
 def get_instrument_description(instrument):
 
-    openai.api_key = "<ENTER OPENAI KEY>" ##new API Key from verja72
+    openai.api_key = "<ENTER OPENAI KEY>" ##new API Key
 
     response = openai.Completion.create(
     model="gpt-3.5-turbo-instruct",
