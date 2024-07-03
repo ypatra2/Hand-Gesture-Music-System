@@ -35,8 +35,7 @@ This project implements a real-time hand gesture recognition system using MediaP
 ## Demo: 
 
 [![Watch the video](https://raw.githubusercontent.com/ypatra2/Hand-Gesture-Music-System/main/Demo.mp4)]
-(https://raw.githubusercontent.com/ypatra2/Hand-Gesture-Music-System/main/Demo.mp4)
-
+(https://github.com/ypatra2/Hand-Gesture-Music-System/raw/main/Demo.mp4)
 
 
 
