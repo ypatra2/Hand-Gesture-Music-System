@@ -65,7 +65,7 @@ def main():
         st.markdown(style, unsafe_allow_html=True)
         if st.button("LET'S HAVE SOME FUN!"):
             # Start the process
-            p = subprocess.Popen("exec " + f"python project_run.py {st.session_state.selected_option}", stdout=subprocess.PIPE, shell=True)
+            p = subprocess.Popen("exec " + f"python ../Hand_Tracking_Algorithms/project_run.py {st.session_state.selected_option}", stdout=subprocess.PIPE, shell=True)
             p.kill()
             subprocess.run(['python', 'project_run.py', instrument])
 
