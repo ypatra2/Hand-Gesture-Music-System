@@ -24,9 +24,6 @@ def get_instrument_description(instrument):
     presence_penalty=0
     )
 
-    # response = OpenAI.completions(json={"model": "text-davinci-003",
-    #                                     "prompt": f"Can you give me a 100 word summary on the instrument {instrument}?"})
-
     return response["choices"][0]["text"].strip()
 
 # Define the Streamlit app
