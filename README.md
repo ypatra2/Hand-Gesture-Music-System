@@ -11,7 +11,7 @@ This project implements a real-time hand gesture recognition system using MediaP
 <li><strong>Interactive Music Playback: </strong>SCAMP (Suite for Computer-Assisted Music in Python) is used to generate the sound of the selected instrument with each unique hand gesture used to play the instrument at a different frequency.</li>
 
 ### Demo:
-[![Watch the video](https://raw.githubusercontent.com/Hand-Gesture-Music-System/blob/main/Demo.MOV)]
+[![Watch the video](https://raw.githubusercontent.com/Hand-Gesture-Music-System/main/Demo.MOV)]
 
 
 
