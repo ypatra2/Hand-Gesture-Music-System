@@ -30,6 +30,7 @@ This project implements a real-time hand gesture recognition system using MediaP
 
 <li><strong>Image Generation: </strong>Run <strong>data_collection_hand_tracking_algorithm.py </strong> and make hand gestures in front of a webcam based on the note for which the image is being saved. Remember to enter the correct save-to path in the script before running it. Use the <strong> S </strong> key to save the image displayed on the window once ready. Generate an ample number of images so that the Image Classifier has sufficient data to learn from, which will make it robust.</li>
 <li><strong>Training Image Classifier: </strong> Upload images stored in the Data folder to Google Teachable Machine and enter a label for each type of gesture as per the musical note it represents. Once images are uploaded, click on Train model. After training is complete, download the <strong>.h5 file</strong> and place it in the Model folder of this repository. A trained model has already been placed in the Model folder currently. Feel free to replace it with a more extensive gesture-trained model.</li>
+<li><strong>Web App Launch: </strong>Launch the Streamlit Web App using streamlit command in terminal. Make sure streamlit python library has been appropriately installed before launching the web app. Enter the folder Streamlit Web App from terminal using <strong>cd</strong> command. Then use the command <strong>streamlit run streamlit_app.py</strong> to launch the Web App in a new browser. The app is now ready to be used. Have fun!</li>
 
 
 
