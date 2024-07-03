@@ -11,7 +11,7 @@ detector = HandDetector(maxHands=1)
 offset = 20
 imgSize = 600
 
-folder = "Data/C2" ##change folder name based on note being stored
+folder = "../Data/C2" ##change folder name based on note being stored
 if not os.path.exists(folder):
     os.makedirs(folder)
 counter = 0
