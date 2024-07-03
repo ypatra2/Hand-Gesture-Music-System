@@ -28,8 +28,8 @@ This project implements a real-time hand gesture recognition system using MediaP
 
 ## Usage
 
-<li><strong>Image Generation: </strong>Run <strong>data_collection_hand_tracking_algorithm.py </strong> and make hand gestures in front of a webcam based on the note for which the image is being saved. Remember to enter the correct save-to path in the script before running it. Use the <strong> S </strong> key to save the image displayed on window once ready. Generate ample number of images so that the Image Classifier has sufficient data to learn from which will make it robust.</li>
-<li><strong>Training Image Classifier: </strong> Upload images stored in Data Folder to Google Teachable Machine and enter label for each type of gesture as per the musical note it represents. Once images are uploaded, click on Train model. After training is complete, download the <strong>.h5 file</strong> and place it in the Model Folder of this repository. A trained model has already been placed in the Model folder currently, feel free to replace it with a more extensive gesture-trained model.</li>
+<li><strong>Image Generation: </strong>Run <strong>data_collection_hand_tracking_algorithm.py </strong> and make hand gestures in front of a webcam based on the note for which the image is being saved. Remember to enter the correct save-to path in the script before running it. Use the <strong> S </strong> key to save the image displayed on the window once ready. Generate an ample number of images so that the Image Classifier has sufficient data to learn from, which will make it robust.</li>
+<li><strong>Training Image Classifier: </strong> Upload images stored in the Data folder to Google Teachable Machine and enter a label for each type of gesture as per the musical note it represents. Once images are uploaded, click on Train model. After training is complete, download the <strong>.h5 file</strong> and place it in the Model folder of this repository. A trained model has already been placed in the Model folder currently. Feel free to replace it with a more extensive gesture-trained model.</li>
 
 
 
