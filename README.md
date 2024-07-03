@@ -21,13 +21,9 @@ This project implements a real-time hand gesture recognition system using MediaP
 
 ## Installation
 <li> Clone the repository
-  ```
-  git clone https://github.com/Sgvkamalakar/Hand-Gesture-Music-Player.git
-  ```</li>
+```git clone https://github.com/Sgvkamalakar/Hand-Gesture-Music-Player.git```</li>
 <li>Requirements
-  ```
-  pip install -r requirements.txt
-  ```</li>
+```pip install -r requirements.txt```</li>
 
 
 
