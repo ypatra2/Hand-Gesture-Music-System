@@ -2,7 +2,7 @@
 This project implements a real-time hand gesture recognition system using MediaPipe. It allows users to play music using SCAMP (Suite for Computer-Assisted Music in Python) by selecting an instrument of their choice through hand movements captured by a webcam. The instrument selection is realized through a Web App built using Streamlit in Python. This is a Human Computer Interaction (HCI) Application Project.
 
 ## Features
-<li><strong>Hand Gesture Recognition: </strong>Utilizes Mediapipe for real-time hand gesture detectio.n</li>
+<li><strong>Hand Gesture Recognition: </strong>Utilizes Mediapipe for real-time hand gesture detection.</li>
 <li><strong>Image Sample Generation: </strong>For each note, a unique hand gesture is made in front of the webcam, and image samples are stored as .jpg files in the corresponding Data folder. Augmented data is generated for model robustness by saving images of the gesture at different angles to the webcam.</li>
 <li><strong>Model Training for Classification: </strong>Classification is required for detecting which note is being played by the user. A Deep Learning Image Classifier is trained on the sampled images stored in the Data folder, using Teachable Machine by Google (<href>https://teachablemachine.withgoogle.com/</href>).</li>
 <li><strong>Sound Mapping: </strong>Each unique hand gesture is associated with a unique sound frequency, similar to how a musical keyboard is programmed</li>
@@ -24,6 +24,10 @@ This project implements a real-time hand gesture recognition system using MediaP
   git clone https://github.com/Sgvkamalakar/Hand-Gesture-Music-Player.git
 <li>Requirements</li>
   pip install -r requirements.txt
+
+## Usage
+
+<li><strong>Image Generation: </strong>Run <strong>data_collection_hand_tracking_algorithm.py </strong> and make hand gestures in front of a webcam based on the note for which the image is being saved. Remember to enter the correct save-to path in the script before running it. Use the <strong> S </strong> key to save the image displayed on window once ready. Generate ample number of images so that the Image Classifier has sufficient data to learn from which will make it robust.</li>
 
 
 
