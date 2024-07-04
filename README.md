@@ -7,7 +7,7 @@ This project implements a real-time hand gesture recognition system using MediaP
 <li><strong>Model Training for Classification: </strong>Classification is required for detecting which note is being played by the user. A Deep Learning Image Classifier is trained on the sampled images stored in the Data folder, using Teachable Machine by Google (<href>https://teachablemachine.withgoogle.com/</href>).</li>
 <li><strong>Sound Mapping: </strong>Each unique hand gesture is associated with a unique sound frequency, similar to how a musical keyboard is programmed</li>
 <li><strong>Instrument Selection: </strong>A Streamlit Web App (<href>https://streamlit.io/</href>) is designed to allow the user to interact with this Music System. The user selects an instrument using a dropdown. The Web App displays the image of the selected instrument and plays a video generated using Synthesia.io (<href>https://www.synthesia.io/</href>) wherein an AI Avatar describes the chosen instrument.<br><br><img width="1440" alt="image" src="https://github.com/ypatra2/Hand-Gesture-Music-System/assets/86041798/08e4678b-f3ab-46a5-92ab-da465bcee74b">
-
+  
 </li>
 
 <li><strong>Interactive Music Playback: </strong>SCAMP (Suite for Computer-Assisted Music in Python) is used to generate the sound of the selected instrument with each unique hand gesture used to play the instrument at a different frequency.</li>
@@ -36,6 +36,10 @@ This project implements a real-time hand gesture recognition system using MediaP
 ## Demo:
 
 https://github.com/ypatra2/Hand-Gesture-Music-System/assets/86041798/15953b17-2ef1-4348-83cc-739e7191a45c
+
+
+https://github.com/ypatra2/Hand-Gesture-Music-System/assets/86041798/d9b6f4b9-4363-4fae-a07d-94c8455258b0
+
 
 
 
